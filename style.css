@@ -361,6 +361,11 @@ nav .nav-links a.selected{
           padding: 60px;
      }
 
+     .biograf{
+          flex-direction: column;
+     }
+
+
 }
 
 @media screen and (max-width: 1200px){
@@ -385,6 +390,10 @@ nav .nav-links a.selected{
 
      .card-books2{
           padding: 40px;
+     }
+
+     .biograf{
+          flex-direction: column;
      }
 }
 
@@ -426,6 +435,16 @@ nav .nav-links a.selected{
           padding: 22px;
           font-size: 15px;
      }
+
+     .biograf{
+          flex-direction: column;
+     }
+
+     .biograf img{
+          width: 600px;
+          height: 400px;
+     }
+
 
 }
 
@@ -475,6 +494,14 @@ nav .nav-links a.selected{
      .card-books2{
           flex-direction: column;
           align-items: center;
+     }
+      .biograf{
+          flex-direction: column;
+     }
+
+     .biograf img{
+          width: 500px;
+          height: 300px;
      }
 
 }
